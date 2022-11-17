@@ -1,0 +1,255 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: rgba(33, 33, 33, 1);
+}
+body a {
+  text-decoration: none;
+}
+body ul {
+  list-style-type: none;
+}
+.header {
+  width: 1600px;
+  height: 80px;
+  display: flex;
+}
+.logo-nav-header {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: rgba(0, 0, 0, 1);
+}
+.logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(47, 48, 58, 1);
+  /* bcg dodany, dla widoczności */
+}
+.span {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: rgba(33, 150, 243, 1);
+}
+.nav-main {
+  display: flex;
+  letter-spacing: 0.02em;
+}
+.agency {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: rgba(33, 33, 33, 1);
+}
+.portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: rgba(33, 33, 33, 1);
+}
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: rgba(33, 33, 33, 1);
+}
+.nav-contact {
+  display: flex;
+  letter-spacing: 0.02em;
+}
+.contact-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: rgba(117, 117, 117, 1);
+}
+.contact-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  color: rgba(117, 117, 117, 1);
+}
+
+.order-container {
+  background: #2f303a;
+  letter-spacing: 0.06em;
+  /* bcg dodany, dla widoczności */
+}
+.order-description {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.order-btn {
+  font-weight: 700;
+  line-height: 1.875;
+  background: #2196f3;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  color: #ffffff;
+  display: flex;
+  cursor: pointer;
+}
+
+.description {
+  font-size: 14px;
+  list-style-type: none;
+  letter-spacing: 0.03em;
+  list-style-type: none;
+}
+
+.description h3 {
+  font-weight: 700;
+  line-height: 0.875;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.description p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #757575;
+}
+
+.what-we-do-container {
+  /* tu będa css dla containera */
+}
+.what-we-do-description {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.what-we-do-container img {
+  width: 370px;
+  height: 294px;
+}
+
+.team-container {
+  /* tu będa css dla containera */
+}
+
+.team-description {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-container figcaption {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+}
+
+.team-container span {
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
+
+.footer-container {
+  background-color: rgba(47, 48, 58, 1);
+  letter-spacing: 0.03em;
+  /* tu będa css dla containera */
+  /* bcg dodany, dla widoczności */
+}
+.footer-adress-item {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.localization {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #ffffff;
+}
+.contact-email-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+.contact-tel-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.link:active {
+  color: rgba(33, 150, 243, 1);
+}
+
+/* PORTFOLIO CSS */
+.button {
+  cursor: pointer;
+  border: #2196f3;
+}
+.button:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.button:hover {
+  background-color: rgba(33, 150, 243, 1);
+  color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+.link:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.link:active {
+  color: rgba(33, 150, 243, 1);
+}
+.link-contact {
+  text-decoration: none;
+}
+.link-contact:focus {
+  color: rgba(33, 150, 243, 1);
+}
+.link-contact:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.products-container {
+  /* tu będą cssy dla containera */
+}
+
+.products-container span {
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
+
+.products-container figcaption {
+  font-weight: 500;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+}
