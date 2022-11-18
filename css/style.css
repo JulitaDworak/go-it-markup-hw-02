@@ -1,6 +1,52 @@
+:root {
+  --main-font-color: rgba(33, 33, 33, 1);
+  --main-font-style: 'Roboto', sans-serif;
+  --second-font-style: 'Raleway', sans-serif;
+  --main-font-color: rgba(33, 33, 33, 1);
+  --logo-font-size: 26px;
+  --logo-font-weight: 700;
+  --logo-line-height: 1.19;
+  --nav-font-size: 14px;
+  --nav-font-weight: 500;
+  --nav-line-height: 0.875;
+  --nav-color: rgba(33, 33, 33, 1);
+  --order-btn-bcg-color: #2196f3;
+  --order-container-bcg-color: #2f303a;
+  --order-decription-font-weight: 900;
+  --order-decription-font-size: 44px;
+  --order-decription-line-height: 1.36;
+  --order-decription-color: #ffffff;
+  --order-btn-font-weight: 700;
+  --order-btn-line-height: 1.875;
+  --order-btn-color: #ffffff;
+  --nav-color-email-tel: rgba(117, 117, 117, 1);
+  --h3-font-weight: 700;
+  --h3-line-height: 0.875;
+  --h2-font-weight: 700;
+  --h2-line-height: 1.16;
+  --h2-font-size: 36px;
+  --h2-h3-figcaption-color: #212121;
+  --p-font-size: 14px;
+  --p-line-height: 1.7;
+  --p-color: #757575;
+  --figcaption-font-weight: 500;
+  --figcaption-line-height: 1.18;
+  --span-img-description-line-height: 1.18;
+  --span-img-description-color: #757575;
+  --hover-color: rgba(33, 150, 243, 1);
+  --focus-color: rgba(33, 150, 243, 1);
+  --active-color: rgba(33, 150, 243, 1);
+  --filter-btn-click-color: #ffffff;
+  --footer-bcg-color: rgba(47, 48, 58, 1);
+  --footer-font-size: 14px;
+  --footer-line-height: 1.71;
+  --footer-email-tel-color: rgba(255, 255, 255, 0.6);
+  --btn-cursor: pointer;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  color: rgba(33, 33, 33, 1);
+  font-family: var(--main-font-style);
+  color: var(--main-font-color);
 }
 body a {
   text-decoration: none;
@@ -8,33 +54,33 @@ body a {
 body ul {
   list-style-type: none;
 }
+
 .header {
   width: 1600px;
   height: 80px;
   display: flex;
 }
 .logo-nav-header {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-family: var(--second-font-style);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
   color: rgba(0, 0, 0, 1);
 }
 .logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-family: var(--second-font-style);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
   color: rgba(255, 255, 255, 1);
-  background-color: rgba(47, 48, 58, 1);
+  background-color: var(--footer-bcg-color);
   /* bcg dodany, dla widoczności */
 }
 .span {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-family: var(--second-font-style);
+  font-weight: var(--logo-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
   color: rgba(33, 150, 243, 1);
 }
 .nav-main {
@@ -42,64 +88,65 @@ body ul {
   letter-spacing: 0.02em;
 }
 .agency {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.875;
-  color: rgba(33, 33, 33, 1);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  color: var(--nav-color);
 }
 .portfolio {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.875;
-  color: rgba(33, 33, 33, 1);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  color: var(--nav-color);
 }
 .contact {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.875;
-  color: rgba(33, 33, 33, 1);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  color: var(--nav-color);
 }
 .nav-contact {
   display: flex;
   letter-spacing: 0.02em;
 }
 .contact-email {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.875;
-  color: rgba(117, 117, 117, 1);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  color: var(--nav-color-email-tel);
 }
 .contact-tel {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.875;
-  color: rgba(117, 117, 117, 1);
+  font-weight: var(--nav-font-weight);
+  font-size: var(--nav-font-size);
+  line-height: var(--nav-line-height);
+  color: var(--nav-color-email-tel);
 }
 
 .order-container {
-  background: #2f303a;
+  background: var(--order-container-bcg-color);
   letter-spacing: 0.06em;
   /* bcg dodany, dla widoczności */
 }
 .order-description {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
+  font-weight: var(--order-decription-font-weight);
+  font-size: var(--order-decription-font-size);
+  line-height: var(--order-decription-line-height);
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--order-decription-color);
 }
+
 .order-btn {
-  font-weight: 700;
-  line-height: 1.875;
-  background: #2196f3;
+  font-weight: var(--order-btn-color);
+  line-height: var(--order-btn-line-height);
+  background: var(--order-btn-bcg-color);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: space-around;
-  color: #ffffff;
+  color: var(--order-btn-color);
   display: flex;
   cursor: pointer;
 }
@@ -112,27 +159,27 @@ body ul {
 }
 
 .description h3 {
-  font-weight: 700;
-  line-height: 0.875;
+  font-weight: var(--h3-font-weight);
+  line-height: var(--h3-line-height);
   text-transform: uppercase;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .description p {
-  font-size: 14px;
-  line-height: 1.7;
-  color: #757575;
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+  color: var(--p-color);
 }
 
 .what-we-do-container {
   /* tu będa css dla containera */
 }
 .what-we-do-description {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-weight: var(--h2-font-weight);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--h2-h3-color);
 }
 
 .what-we-do-container img {
@@ -145,96 +192,90 @@ body ul {
 }
 
 .team-description {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-weight: var(--h2-font-weight);
+  font-size: var(--h2-font-size);
+  line-height: var(--h2-line-height);
   text-align: center;
   letter-spacing: 0.03em;
 }
 
 .team-container figcaption {
-  font-weight: 500;
-  line-height: 1.18;
+  font-weight: var(--figcaption-font-weight);
+  line-height: var(--figcaption-line-height);
   text-align: center;
-  color: #212121;
+  color: var(--h2-h3-figcaption-color);
 }
 
 .team-container span {
-  line-height: 1.18;
+  line-height: var(--span-img-description-line-height);
   text-align: center;
-  color: #757575;
+  color: var(--span-img-description-color);
 }
 
 .footer-container {
-  background-color: rgba(47, 48, 58, 1);
+  background-color: var(--footer-bcg-color);
   letter-spacing: 0.03em;
   /* tu będa css dla containera */
   /* bcg dodany, dla widoczności */
 }
 .footer-adress-item {
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.7;
+  font-size: var(--footer-font-size);
+  line-height: var(--footer-line-height);
 }
 
 .localization {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: var(--footer-font-size);
+  line-height: var(--footer-line-height);
   color: #ffffff;
 }
 .contact-email-footer {
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--footer-font-size);
+  line-height: var(--footer-line-height);
+  color: var(--footer-email-tel-color);
 }
 .contact-tel-footer {
-  font-size: 14px;
-  line-height: 1.71;
-  color: rgba(255, 255, 255, 0.6);
+  font-size: var(--footer-font-size);
+  line-height: var(--footer-line-height);
+  color: var(--footer-email-tel-color);
 }
 
 .link:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--focus-color);
 }
 .link:hover {
-  color: rgba(33, 150, 243, 1);
+  color: var(--hover-color);
 }
 .link:active {
-  color: rgba(33, 150, 243, 1);
+  color: var(--active-color);
 }
 
 /* PORTFOLIO CSS */
-.button {
-  cursor: pointer;
+.filter-btn {
+  cursor: var(--pointer);
   border: #2196f3;
 }
-.button:focus {
-  color: rgba(33, 150, 243, 1);
+.filter-btn:focus {
+  color: var(--focus-color);
 }
-.button:hover {
-  background-color: rgba(33, 150, 243, 1);
-  color: #ffffff;
-}
-.link {
-  text-decoration: none;
+.filter-btn:hover {
+  background-color: var(--hover-color);
+  color: var(--filter-btn-click-color);
 }
 .link:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--focus-color);
 }
 .link:hover {
-  color: rgba(33, 150, 243, 1);
+  color: var(--hover-color);
 }
 .link:active {
-  color: rgba(33, 150, 243, 1);
-}
-.link-contact {
-  text-decoration: none;
+  color: var(--active-color);
 }
 .link-contact:focus {
-  color: rgba(33, 150, 243, 1);
+  color: var(--focus-color);
 }
 .link-contact:hover {
-  color: rgba(33, 150, 243, 1);
+  color: var(--hover-color);
 }
 
 .products-container {
@@ -242,14 +283,14 @@ body ul {
 }
 
 .products-container span {
-  line-height: 1.18;
+  line-height: var(--span-img-description-line-height);
   text-align: center;
-  color: #757575;
+  color: var(--span-img-description-color);
 }
 
 .products-container figcaption {
-  font-weight: 500;
-  line-height: 1.18;
+  font-weight: var(--figcaption-font-weight);
+  line-height: var(--figcaption-line-height);
   text-align: center;
-  color: #212121;
+  color: var(--h2-h3-figcaption-color);
 }
